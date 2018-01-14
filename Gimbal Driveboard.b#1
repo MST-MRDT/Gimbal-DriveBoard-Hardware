@@ -2040,7 +2040,9 @@ design rules under a new name.</description>
 <vertex x="0.254" y="0.254"/>
 <vertex x="0.254" y="99.822"/>
 </polygon>
-<wire x1="18.781" y1="13.843" x2="18.783" y2="13.845" width="0.254" layer="1"/>
+<wire x1="18.783" y1="13.845" x2="18.781" y2="13.843" width="0.254" layer="1"/>
+<wire x1="18.781" y1="13.843" x2="17.78" y2="13.843" width="0.254" layer="1"/>
+<via x="17.78" y="13.843" extent="1-16" drill="0.35"/>
 <wire x1="18.785" y1="24.638" x2="17.78" y2="24.638" width="0.254" layer="1"/>
 <via x="17.78" y="24.638" extent="1-16" drill="0.35"/>
 <wire x1="30.226" y1="37.211" x2="29.972" y2="36.957" width="0.254" layer="1"/>
@@ -2090,18 +2092,7 @@ design rules under a new name.</description>
 <wire x1="37.338" y1="14.5537625" x2="36.2966" y2="13.5123625" width="0.254" layer="1"/>
 <wire x1="36.2966" y1="13.5123625" x2="36.2966" y2="9.4996" width="0.254" layer="1"/>
 <via x="34.29" y="7.493" extent="1-16" drill="0.35"/>
-<wire x1="18.923" y1="11.568" x2="17.029" y2="11.568" width="0.1524" layer="1"/>
-<wire x1="17.029" y1="11.568" x2="17.018" y2="11.557" width="0.1524" layer="1"/>
-<via x="17.018" y="11.557" extent="1-16" drill="0.35"/>
-<wire x1="18.783" y1="13.845" x2="17.782" y2="13.845" width="0.254" layer="1"/>
-<wire x1="17.782" y1="13.845" x2="17.78" y2="13.843" width="0.254" layer="1"/>
-<via x="17.78" y="13.843" extent="1-16" drill="0.35"/>
-<polygon width="0.254" layer="16">
-<vertex x="0.127" y="99.949"/>
-<vertex x="160.401" y="100.457"/>
-<vertex x="160.401" y="0.635"/>
-<vertex x="0.127" y="0.127"/>
-</polygon>
+<wire x1="18.783" y1="13.845" x2="18.923" y2="11.568" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$1" pad="+5V_1" route="any" routetag="G$1.+5V"/>
@@ -2206,9 +2197,9 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="PK4"/>
 <contactref element="MC4" pad="1"/>
 <wire x1="13.843" y1="48.895" x2="12.7" y2="48.895" width="0.254" layer="1"/>
-<wire x1="12.7" y1="48.895" x2="12.7" y2="48.8784125" width="0.254" layer="1"/>
-<wire x1="12.7" y1="48.8784125" x2="11.5062" y2="47.6846125" width="0.254" layer="1"/>
-<wire x1="11.5062" y1="47.6846125" x2="11.5062" y2="3.981325" width="0.254" layer="1"/>
+<wire x1="12.7" y1="48.895" x2="12.7" y2="46.8464125" width="0.254" layer="1"/>
+<wire x1="12.7" y1="46.8464125" x2="11.5062" y2="45.6526125" width="0.254" layer="1"/>
+<wire x1="11.5062" y1="45.6526125" x2="11.5062" y2="3.981325" width="0.254" layer="1"/>
 <wire x1="12.871325" y1="2.6162" x2="54.4322" y2="2.6162" width="0.254" layer="1"/>
 <wire x1="54.4322" y1="2.6162" x2="56.388" y2="4.572" width="0.254" layer="1"/>
 <wire x1="56.388" y1="4.572" x2="56.388" y2="11.811" width="0.254" layer="1"/>
@@ -2496,6 +2487,14 @@ design rules under a new name.</description>
 <wire x1="49.911" y1="24.257" x2="50.673" y2="25.019" width="0.254" layer="1"/>
 <wire x1="50.673" y1="25.019" x2="56.642" y2="25.019" width="0.254" layer="1"/>
 <wire x1="56.642" y1="25.019" x2="56.896" y2="25.273" width="0.254" layer="1"/>
+</signal>
+<signal name="N$1">
+<polygon width="0.254" layer="16">
+<vertex x="0.127" y="99.949"/>
+<vertex x="160.401" y="100.457"/>
+<vertex x="160.401" y="0.635"/>
+<vertex x="0.127" y="0.127"/>
+</polygon>
 </signal>
 </signals>
 </board>
