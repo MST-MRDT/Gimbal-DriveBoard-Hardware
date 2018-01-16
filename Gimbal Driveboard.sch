@@ -3500,7 +3500,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="MRDT-ICs" deviceset="OKI-78SR-*/1.5-W36?C" device="H" technology="5"/>
 <part name="J2" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="12V_HORIZ"/>
@@ -3563,7 +3562,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P+4" gate="1" x="66.04" y="10.16"/>
 <instance part="GND7" gate="1" x="43.18" y="-5.08"/>
 <instance part="GND8" gate="1" x="91.44" y="-25.4"/>
-<instance part="P+14" gate="1" x="256.54" y="-43.18"/>
 <instance part="GND20" gate="1" x="213.36" y="-40.64"/>
 <instance part="U1" gate="G$1" x="226.06" y="-50.8"/>
 <instance part="J2" gate="GND" x="223.52" y="-33.02"/>
@@ -3692,7 +3690,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="66.04" y="5.08"/>
 </segment>
 <segment>
-<pinref part="P+14" gate="1" pin="+5V"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<wire x1="215.9" y1="-73.66" x2="223.52" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="5V_DECAP" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="-60.96" x2="256.54" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="-60.96" x2="256.54" y2="-50.8" width="0.1524" layer="91"/>
@@ -3700,11 +3702,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="256.54" y1="-50.8" x2="256.54" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="-50.8" x2="256.54" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="256.54" y="-50.8"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="215.9" y1="-73.66" x2="223.52" y2="-73.66" width="0.1524" layer="91"/>
+<label x="259.08" y="-45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX_1" class="0">
