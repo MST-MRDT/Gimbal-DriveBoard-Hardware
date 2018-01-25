@@ -165,15 +165,15 @@
 <board>
 <plain>
 <wire x1="0.508" y1="-5.588" x2="68.58" y2="-5.588" width="0" layer="20"/>
-<wire x1="68.58" y1="-5.588" x2="68.58" y2="67.05973125" width="0" layer="20"/>
-<wire x1="68.58" y1="67.05973125" x2="63.37673125" y2="72.263" width="0" layer="20" curve="90"/>
-<wire x1="63.37673125" y1="72.263" x2="20.32" y2="72.263" width="0" layer="20"/>
-<wire x1="20.32" y1="72.263" x2="15.875" y2="67.818" width="0" layer="20" curve="90"/>
-<wire x1="15.875" y1="67.818" x2="15.875" y2="37.846" width="0" layer="20"/>
+<wire x1="68.58" y1="-5.588" x2="68.58" y2="66.560715625" width="0" layer="20"/>
+<wire x1="68.58" y1="66.560715625" x2="57.797715625" y2="77.343" width="0" layer="20" curve="90"/>
+<wire x1="57.797715625" y1="77.343" x2="24.108775" y2="77.343" width="0" layer="20"/>
+<wire x1="24.108775" y1="77.343" x2="15.875" y2="69.109225" width="0" layer="20" curve="90"/>
+<wire x1="15.875" y1="69.109225" x2="15.875" y2="37.846" width="0" layer="20"/>
 <wire x1="15.875" y1="37.846" x2="0.508" y2="37.846" width="0" layer="20"/>
 <wire x1="0.508" y1="37.846" x2="0.508" y2="-5.588" width="0" layer="20"/>
-<hole x="15.875" y="59.563" drill="2.032"/>
-<hole x="68.58" y="59.563" drill="2.032"/>
+<hole x="15.875" y="64.643" drill="2.032"/>
+<hole x="68.58" y="64.643" drill="2.032"/>
 <text x="19.177" y="59.944" size="1.778" layer="25">Gimbal Driveboard Rev 1
 Mars Rover 2018
 Misouri S&amp;T
@@ -9576,9 +9576,8 @@ design rules under a new name.</description>
 <contactref element="XB" pad="10"/>
 <polygon width="0.254" layer="1">
 <vertex x="0.508" y="58.547"/>
-<vertex x="4.064" y="72.517"/>
-<vertex x="67.55731875" y="72.143509375" curve="-89.795916"/>
-<vertex x="68.831909375" y="70.858628125"/>
+<vertex x="3.175" y="78.105"/>
+<vertex x="67.945" y="77.724"/>
 <vertex x="68.707" y="-5.461"/>
 <vertex x="-0.254" y="-5.588"/>
 </polygon>
@@ -9590,8 +9589,8 @@ design rules under a new name.</description>
 <wire x1="24.382" y1="12.448" x2="24.384" y2="11.938" width="0.254" layer="1"/>
 <via x="24.384" y="11.938" extent="1-16" drill="0.35"/>
 <polygon width="0.254" layer="16">
-<vertex x="0.635" y="72.009"/>
-<vertex x="68.707" y="72.263"/>
+<vertex x="0.127" y="77.851"/>
+<vertex x="68.199" y="78.105"/>
 <vertex x="68.707" y="-5.461"/>
 <vertex x="-0.254" y="-5.461"/>
 </polygon>
