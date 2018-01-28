@@ -176,8 +176,8 @@
 <wire x1="68.58" y1="74.465584375" x2="65.702584375" y2="77.343" width="0" layer="20" curve="90"/>
 <wire x1="65.702584375" y1="77.343" x2="19.151334375" y2="77.343" width="0" layer="20"/>
 <wire x1="19.151334375" y1="77.343" x2="15.875" y2="74.066665625" width="0" layer="20" curve="90"/>
-<hole x="15.875" y="64.643" drill="2.032"/>
-<hole x="68.58" y="64.643" drill="2.032"/>
+<hole x="15.875" y="64.643" drill="4.064"/>
+<hole x="68.58" y="64.643" drill="4.064"/>
 <text x="48.514" y="69.088" size="1.778" layer="25" rot="SR180">Gimbal Driveboard Rev 1
 Mars Rover 2018
 Misouri S&amp;T
