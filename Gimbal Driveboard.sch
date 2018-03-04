@@ -11984,6 +11984,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="152.4" y="58.42" size="2.54" layer="97">Serial1</text>
 <text x="152.4" y="30.48" size="2.54" layer="97">Serial2</text>
 <text x="152.4" y="2.54" size="2.54" layer="97">Serial3</text>
+<text x="248.92" y="58.42" size="1.778" layer="91">Serial 6</text>
+<text x="248.92" y="48.26" size="1.778" layer="91">Serial 3</text>
+<text x="248.92" y="38.1" size="1.778" layer="91">Serial 4</text>
+<text x="238.76" y="66.04" size="1.778" layer="91">Serial 2 (MUX)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="66.04" y="53.34"/>
@@ -12466,9 +12470,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="XB" gate="G$1" pin="DOUT"/>
 </segment>
 <segment>
-<label x="304.8" y="43.18" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$34"/>
-<wire x1="304.8" y1="43.18" x2="299.72" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$5"/>
+<wire x1="269.24" y1="63.5" x2="264.16" y2="63.5" width="0.1524" layer="91"/>
+<label x="264.16" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XB_TX" class="0">
@@ -12478,9 +12482,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="XB" gate="G$1" pin="DIN"/>
 </segment>
 <segment>
-<label x="304.8" y="40.64" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$35"/>
-<wire x1="304.8" y1="40.64" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$6"/>
+<wire x1="269.24" y1="66.04" x2="264.16" y2="66.04" width="0.1524" layer="91"/>
+<label x="264.16" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
